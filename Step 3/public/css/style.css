@@ -1,0 +1,26 @@
+.title {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* accordian css */
+.acc {
+    margin-top: 10px;
+}
+
+/* This is used for the bootstrap override switch */
+.onoff-chkswitch {
+    /* padding-top:20px; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* margin-left: 10px */
+}
+
+/* This is used for the bootstrap override check box */
+.override-chkbox {
+    /* padding-top:20px */
+    margin-top: 30px
+}
