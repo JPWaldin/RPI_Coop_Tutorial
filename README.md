@@ -3,3 +3,5 @@
 [Step 1 - Configure Fastify and Socket.io](./Step%201)
 
 [Step 2 - Configure BME280 and Bootstrap](./Step%202)
+
+[Step 3 - Configure GPIO and Control Heat & Exhaust](./Step%203)
