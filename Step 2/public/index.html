@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <title>Coop Controller</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Chicken Coop Dashboard</h2>
+        <div class="card bg-light">
+            <div class="card-body">
+                <h3>Current conditions...</h3>
+                <div>Server time is&nbsp;<span id="svrTime"></span></div>
+                <div>Coop temperature is&nbsp;<span id="degF"></span>&nbsp;°F&nbsp;&nbsp;<span id="degC"></span>&nbsp;°C
+                </div>
+                <div>Coop humidity is&nbsp;<span id="pctRH"></span>&nbsp;%RH</div>
+                <div>Coop pressure is&nbsp;<span id="hPa"></span>&nbsp;hPa</div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/socket.io.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
